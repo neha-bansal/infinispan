@@ -5,7 +5,7 @@
 	<artifactId>infinispan-tutorial</artifactId>
 	<version>1.0.0.Final</version>
 
-	<name>Infinispan Tutorial: Embedded tutorial</name>
+	<name>Infinispan Tutorial</name>
 
 	<dependencies>
 		<dependency>
