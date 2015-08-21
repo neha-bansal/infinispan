@@ -1,0 +1,68 @@
+11:11:17,659 (main)  INFO EvictionConfigurationBuilder:67 - ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+11:11:17,821 (main)  INFO EvictionConfigurationBuilder:67 - ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+11:11:17,823 (main)  INFO GlobalComponentRegistry:224 - ISPN000128: Infinispan version: Infinispan 'Guinness' 7.0.0.Final
+11:11:18,172 (main)  INFO CacheLevelLoggingListener:25 - [Event CACHE_STARTED] Cache started.
+11:11:23,246 (main)  INFO CacheLevelLoggingListener:48 - [Event CACHE_ENTRY_CREATED] Cache entry key1 added in cache Cache 'mongo-cache'@6bd79538
+11:12:21,751 (main)  INFO GlobalComponentRegistry:224 - ISPN000128: Infinispan version: Infinispan 'Guinness' 7.0.0.Final
+11:12:22,097 (main)  INFO CacheLevelLoggingListener:25 - [Event CACHE_STARTED] Cache started.
+11:12:27,183 (main)  INFO CacheLevelLoggingListener:48 - [Event CACHE_ENTRY_CREATED] Cache entry key1 added in cache Cache 'mongo-cache'@203f85c7
+11:13:07,391 (main)  INFO GlobalComponentRegistry:224 - ISPN000128: Infinispan version: Infinispan 'Guinness' 7.0.0.Final
+11:13:07,736 (main)  INFO CacheLevelLoggingListener:25 - [Event CACHE_STARTED] Cache started.
+11:13:12,820 (main)  INFO CacheLevelLoggingListener:62 - [Event CACHE_ENTRY_LOADED] Cache entry key1 manipulated in cache Cache 'mongo-cache'@40aeb11d
+11:13:12,824 (main)  INFO CacheLevelLoggingListener:48 - [Event CACHE_ENTRY_CREATED] Cache entry key1 added in cache Cache 'mongo-cache'@40aeb11d
+11:13:17,828 (main)  INFO CacheLevelLoggingListener:28 - [Event CACHE_STOPPED] Cache stopped.
+11:14:23,132 (main)  INFO GlobalComponentRegistry:224 - ISPN000128: Infinispan version: Infinispan 'Guinness' 7.0.0.Final
+11:14:23,485 (main)  INFO CacheLevelLoggingListener:25 - [Event CACHE_STARTED] Cache started.
+11:14:28,585 (main)  INFO CacheLevelLoggingListener:62 - [Event CACHE_ENTRY_LOADED] Cache entry key1 manipulated in cache Cache 'mongo-cache'@14bea80e
+11:14:28,590 (main)  INFO CacheLevelLoggingListener:48 - [Event CACHE_ENTRY_CREATED] Cache entry key1 added in cache Cache 'mongo-cache'@14bea80e
+11:14:33,597 (main)  INFO CacheLevelLoggingListener:28 - [Event CACHE_STOPPED] Cache stopped.
+10:39:54,548 (main)  INFO GlobalComponentRegistry:224 - ISPN000128: Infinispan version: Infinispan 'Guinness' 7.0.0.Final
+10:40:05,427 (main)  INFO CacheLevelLoggingListener:25 - [Event CACHE_STARTED] Cache started.
+11:05:51,202 (main)  INFO CacheLevelLoggingListener:62 - [Event CACHE_ENTRY_LOADED] Cache entry key1 manipulated in cache Cache 'mongo-cache'@552d4a00
+11:15:30,732 (main)  INFO CacheLevelLoggingListener:48 - [Event CACHE_ENTRY_CREATED] Cache entry key1 added in cache Cache 'mongo-cache'@552d4a00
+11:17:21,191 (main)  INFO CacheLevelLoggingListener:28 - [Event CACHE_STOPPED] Cache stopped.
+12:15:06,945 (main)  INFO EvictionConfigurationBuilder:67 - ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+12:15:07,612 (main)  INFO EvictionConfigurationBuilder:67 - ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+12:15:07,616 (main)  INFO GlobalComponentRegistry:224 - ISPN000128: Infinispan version: Infinispan 'Guinness' 7.0.0.Final
+12:15:08,590 (main)  INFO CacheLevelLoggingListener:25 - [Event CACHE_STARTED] Cache started.
+12:15:13,683 (main)  INFO CacheLevelLoggingListener:48 - [Event CACHE_ENTRY_CREATED] Cache entry key2 added in cache Cache 'mongo-cache'@56fc15cb
+12:15:18,684 (main)  INFO PassivationManagerImpl:101 - ISPN000029: Passivating all entries to disk
+12:15:18,699 (main)  INFO PassivationManagerImpl:107 - ISPN000030: Passivated 1 entries in 14 milliseconds
+12:15:18,703 (main)  INFO CacheLevelLoggingListener:28 - [Event CACHE_STOPPED] Cache stopped.
+12:22:16,935 (main)  INFO EvictionConfigurationBuilder:67 - ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+12:22:17,107 (main)  INFO EvictionConfigurationBuilder:67 - ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+12:22:17,109 (main)  INFO GlobalComponentRegistry:224 - ISPN000128: Infinispan version: Infinispan 'Guinness' 7.0.0.Final
+12:22:17,469 (main)  INFO CacheLevelLoggingListener:25 - [Event CACHE_STARTED] Cache started.
+12:22:22,605 (main)  INFO CacheLevelLoggingListener:86 - [Event CACHE_ENTRY_ACTIVATED] Cache entry Activated : key2
+12:22:22,608 (main)  INFO CacheLevelLoggingListener:62 - [Event CACHE_ENTRY_LOADED] Cache entry key2 manipulated in cache Cache 'mongo-cache'@9cb4cb5
+12:22:22,608 (main)  INFO CacheLevelLoggingListener:86 - [Event CACHE_ENTRY_ACTIVATED] Cache entry Activated : key2
+12:22:22,611 (main)  INFO CacheLevelLoggingListener:48 - [Event CACHE_ENTRY_CREATED] Cache entry key2 added in cache Cache 'mongo-cache'@9cb4cb5
+12:22:27,614 (main)  INFO PassivationManagerImpl:101 - ISPN000029: Passivating all entries to disk
+12:22:27,624 (main)  INFO PassivationManagerImpl:107 - ISPN000030: Passivated 1 entries in 10 milliseconds
+12:22:27,628 (main)  INFO CacheLevelLoggingListener:28 - [Event CACHE_STOPPED] Cache stopped.
+12:37:58,637 (main)  INFO GlobalComponentRegistry:224 - ISPN000128: Infinispan version: Infinispan 'Guinness' 7.0.0.Final
+12:37:59,146 (main)  INFO CacheLevelLoggingListener:25 - [Event CACHE_STARTED] Cache started.
+12:38:04,262 (main)  INFO CacheLevelLoggingListener:48 - [Event CACHE_ENTRY_CREATED] Cache entry key2 added in cache Cache 'mongo-cache'@22033a02
+12:38:09,264 (main)  INFO PassivationManagerImpl:101 - ISPN000029: Passivating all entries to disk
+12:38:09,278 (main)  INFO PassivationManagerImpl:107 - ISPN000030: Passivated 1 entries in 13 milliseconds
+12:38:09,282 (main)  INFO CacheLevelLoggingListener:28 - [Event CACHE_STOPPED] Cache stopped.
+12:42:32,832 (main)  INFO GlobalComponentRegistry:224 - ISPN000128: Infinispan version: Infinispan 'Guinness' 7.0.0.Final
+12:42:33,208 (main)  INFO CacheLevelLoggingListener:25 - [Event CACHE_STARTED] Cache started.
+12:42:33,256 (main)  INFO CacheLevelLoggingListener:48 - [Event CACHE_ENTRY_CREATED] Cache entry key2 added in cache Cache 'mongo-cache'@262bbfbc
+12:42:33,257 (main)  INFO PassivationManagerImpl:101 - ISPN000029: Passivating all entries to disk
+12:42:33,260 (main)  INFO PassivationManagerImpl:107 - ISPN000030: Passivated 1 entries in 3 milliseconds
+12:42:33,261 (main)  INFO CacheLevelLoggingListener:28 - [Event CACHE_STOPPED] Cache stopped.
+12:51:34,681 (main)  INFO GlobalComponentRegistry:224 - ISPN000128: Infinispan version: Infinispan 'Guinness' 7.0.0.Final
+12:53:08,854 (main)  INFO GlobalComponentRegistry:224 - ISPN000128: Infinispan version: Infinispan 'Guinness' 7.0.0.Final
+12:55:45,798 (main)  INFO GlobalComponentRegistry:224 - ISPN000128: Infinispan version: Infinispan 'Guinness' 7.0.0.Final
+12:56:34,498 (main)  INFO CacheLevelLoggingListener:25 - [Event CACHE_STARTED] Cache started.
+12:56:34,553 (main)  INFO CacheLevelLoggingListener:48 - [Event CACHE_ENTRY_CREATED] Cache entry key2 added in cache Cache 'mongo-cache'@489bcfd4
+12:56:34,554 (main)  INFO PassivationManagerImpl:101 - ISPN000029: Passivating all entries to disk
+12:56:34,558 (main)  INFO PassivationManagerImpl:107 - ISPN000030: Passivated 1 entries in 3 milliseconds
+12:56:34,559 (main)  INFO CacheLevelLoggingListener:28 - [Event CACHE_STOPPED] Cache stopped.
+12:57:50,693 (main)  INFO GlobalComponentRegistry:224 - ISPN000128: Infinispan version: Infinispan 'Guinness' 7.0.0.Final
+12:58:00,059 (main)  INFO CacheLevelLoggingListener:25 - [Event CACHE_STARTED] Cache started.
+12:58:00,115 (main)  INFO CacheLevelLoggingListener:48 - [Event CACHE_ENTRY_CREATED] Cache entry key2 added in cache Cache 'mongo-cache'@238e338
+12:58:00,116 (main)  INFO PassivationManagerImpl:101 - ISPN000029: Passivating all entries to disk
+12:58:00,119 (main)  INFO PassivationManagerImpl:107 - ISPN000030: Passivated 1 entries in 2 milliseconds
+12:58:00,120 (main)  INFO CacheLevelLoggingListener:28 - [Event CACHE_STOPPED] Cache stopped.

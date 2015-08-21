@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.infinispan.tutorial</groupId>
+		<artifactId>infinispan</artifactId>
+		<version>1.0.0.Final</version>
+		<relativePath>..</relativePath>
+	</parent>
+	
+	<artifactId>infinispan-mongodb</artifactId>
+	<name>Infinispan mongodb tutorial</name>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.infinispan</groupId>
+			<artifactId>infinispan-cachestore-mongodb</artifactId>
+			<version>7.0.0.Final</version>
+		</dependency>
+		<dependency>
+			<groupId>org.infinispan.tutorial</groupId>
+			<artifactId>infinispan-tutorial</artifactId>
+			<version>1.0.0.Final</version>
+		</dependency>
+		<!-- <dependency>
+			<groupId>org.infinispan</groupId>
+			<artifactId>infinispan-core</artifactId>
+			<version>7.0.0.Final</version>
+		</dependency> -->
+	</dependencies>
+</project>
