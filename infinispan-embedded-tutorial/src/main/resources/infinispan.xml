@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<infinispan
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="urn:infinispan:config:7.0 http://www.infinispan.org/schemas/infinispan-config-7.0.xsd"
+        xmlns="urn:infinispan:config:7.0">
+
+  <jgroups>
+     <stack-file name="udp" path="default-configs/default-jgroups-udp.xml" />
+  </jgroups>
+
+  <cache-container default-cache="default">
+     <transport stack="udp" node-name="${nodeName}" />
+     
+     <local-cache name="local"></local-cache>
+     
+     <replicated-cache name="repl" mode="SYNC" />
+     
+     <distributed-cache name="dist" mode="SYNC" owners="2" />
+     
+     <local-cache name="file-store-cache">
+     	<eviction strategy="LIRS" max-entries="2"/>
+     	<expiration lifespan="10000" max-idle="2000"/>
+     	<persistence passivation="true">
+     		<file-store path="./target/myDataStore"></file-store>
+     	</persistence>
+     </local-cache>
+  </cache-container>
+
+</infinispan>
+
